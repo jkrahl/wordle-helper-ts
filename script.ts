@@ -18,7 +18,7 @@ console.log("grayLetters: " + grayLetters);
 
 // Get the words from the file and split them
 const file = fs.readFileSync(path.join(__dirname, "palabras.txt"), "utf8");
-const words = file.split("\n");
+const words = file.split("\r\n");
 
 // Filter the words
 let filteredWords = words.filter((word) => word.length === wordLength);

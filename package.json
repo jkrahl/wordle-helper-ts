@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/jkrahl/wordle-helper"
+    "url": "github.com/jkrahl/wordle-helper-ts"
   },
   "author": "Jan Krahl",
   "license": "MIT",
   "dependencies": {
     "@types/minimist": "^1.2.2",
-    "minimist": "^1.2.7"
+    "minimist": "^1.2.8"
   }
 }
